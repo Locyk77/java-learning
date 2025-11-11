@@ -1,0 +1,25 @@
+name: Sync to Gitee
+on:
+  push:
+    branches: [ master ]  # 当 GitHub 的 master 分支有推送时触发
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取 GitHub 代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 拉取所有历史提交
+
+      - name: 配置Git安全目录
+        run: git config --global --add safe.directory /github/workspace
+
+      - name: 同步到 Gitee
+        uses: wearerequired/git-mirror-action@v1.2.0
+        with:
+          # GitHub 仓库地址（替换为你的仓库）
+          source-repo: "https://${{ secrets.GIT_TOKEN }}@github.com/Locyk77/java-learning.git"
+          # Gitee 仓库地址（替换为你的仓库）
+          destination-repo: "https://locyk:${{ secrets.GITEE_TOKEN }}@gitee.com/locyk/java-learning.git"
+
