@@ -1,0 +1,35 @@
+#服务器端口
+server:
+  port: 8411
+
+spring:
+  application:
+      name: base-inter
+
+
+cloud:
+  secure:
+    strict-token: true
+    strict-header: true
+
+    skip-url:
+      - /demo/skip/info
+
+    basic:
+      - method: ALL
+        pattern:  /demo/basic/info
+        username: "cloud"
+        password: "cloud"
+
+    sign:
+      - method: ALL
+        pattern:  /demo/sign/info
+        crypto: "RSA"
+    client:
+      - client-id: sword
+        path-patterns:
+          - /demo/client/info
+      - client-id: saber
+        path-patterns:
+          - /saber/**
+
