@@ -1,4 +1,4 @@
-package org.open.code.learning.base.design122.strategy_mode;
+package org.open.code.learning.base.design_02.strategy_mode;
 
 import org.springframework.stereotype.Service;
 

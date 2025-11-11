@@ -1,4 +1,4 @@
-package org.open.code.learning.base.design122.observe_mode;
+package org.open.code.learning.base.design_02.observe_mode;
 
 import org.springframework.context.ApplicationEvent;
 

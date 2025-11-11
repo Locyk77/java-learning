@@ -1,4 +1,4 @@
-package org.open.code.learning.base.design122.factory_mode;
+package org.open.code.learning.base.design_02.factory_mode;
 
 import org.springframework.stereotype.Component;
 
