@@ -1,0 +1,28 @@
+package org.open.code.learning.base.design_01.decorator_mode.example_01.decorator;
+
+import org.open.code.learning.base.design_01.decorator_mode.example_01.Coffee;
+import org.open.code.learning.base.design_01.decorator_mode.example_01.CondimentDecorator;
+
+/**
+ * 具体装饰器：奶泡
+ *@author: Locyk
+ *@time: 2025/9/9
+ *
+ */
+public class Foam extends CondimentDecorator {
+    public Foam(Coffee coffee) {
+        super(coffee);
+    }
+
+    @Override
+    public Integer getPrice() {
+        Integer price = super.getPrice();
+        return price + 4;
+    }
+
+    @Override
+    public String getDescription() {
+        String description = super.getDescription();
+        return description + " + 奶泡";
+    }
+}
