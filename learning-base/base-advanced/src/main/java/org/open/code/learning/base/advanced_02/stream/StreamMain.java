@@ -1,4 +1,4 @@
-package org.open.code.learning.base.advanced112.stream;
+package org.open.code.learning.base.advanced_02.stream;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
  *@time: 2025/9/8
  *
  */
-public class StreamMain112 {
+public class StreamMain {
     public static void main(String[] args) {
 
         List<Person> people = Arrays.asList(new Person("Alice", 25, "Female"),

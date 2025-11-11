@@ -1,4 +1,4 @@
-package org.open.code.learning.base.advanced112.optional;
+package org.open.code.learning.base.advanced_02.optional;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -12,7 +12,7 @@ import java.util.Optional;
  *@time: 2025/9/8
  *
  */
-public class OptionalMain112 {
+public class OptionalMain {
     public static void main(String[] args) {
         Optional<User> user1 = Optional.ofNullable(new User("Locyk", new Address("wuhan")));
 

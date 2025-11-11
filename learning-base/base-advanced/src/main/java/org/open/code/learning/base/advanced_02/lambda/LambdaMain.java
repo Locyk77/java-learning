@@ -1,4 +1,4 @@
-package org.open.code.learning.base.advanced112.lambda;
+package org.open.code.learning.base.advanced_02.lambda;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ import java.util.function.Supplier;
  *@time: 2025/9/8
  *
  */
-public class LambdaMain112 {
+public class LambdaMain {
     public static void main(String[] args) {
 
         // Predicate：判断数字是否为偶数
@@ -38,7 +38,7 @@ public class LambdaMain112 {
         System.out.println(parseInt.apply("123"));
 
         //自定义方法引用
-        Function<String, Integer> test = LambdaMain112::test;
+        Function<String, Integer> test = LambdaMain::test;
         System.out.println(test.apply("123"));
 
         // 引用实例方法（对象::方法）

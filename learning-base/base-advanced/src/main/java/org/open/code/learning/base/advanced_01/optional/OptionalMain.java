@@ -1,4 +1,4 @@
-package org.open.code.learning.base.advanced111.optional;
+package org.open.code.learning.base.advanced_01.optional;
 
 import java.util.Optional;
 
@@ -8,7 +8,7 @@ import java.util.Optional;
  *@time: 2025/9/8
  *
  */
-public class OptionalMain111 {
+public class OptionalMain {
     public static void main(String[] args) {
         // 创建Optional
         Optional<String> optional1 = Optional.of("Hello");

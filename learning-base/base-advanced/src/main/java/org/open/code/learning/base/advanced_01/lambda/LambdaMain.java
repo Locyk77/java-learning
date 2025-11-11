@@ -1,4 +1,4 @@
-package org.open.code.learning.base.advanced111.lambda;
+package org.open.code.learning.base.advanced_01.lambda;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -10,7 +10,7 @@ import java.util.List;
  *@time: 2025/9/8
  *
  */
-public class LambdaMain111 {
+public class LambdaMain {
 
     public static void main(String[] args) {
 

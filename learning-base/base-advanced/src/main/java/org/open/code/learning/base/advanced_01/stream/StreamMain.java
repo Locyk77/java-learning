@@ -1,4 +1,4 @@
-package org.open.code.learning.base.advanced111.stream;
+package org.open.code.learning.base.advanced_01.stream;
 
 import java.util.Arrays;
 import java.util.List;
@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  *@time: 2025/9/8
  *
  */
-public class StreamMain111 {
+public class StreamMain {
     public static void main(String[] args) {
         List<String> names = Arrays.asList("Alice", "Bob", "Charlie", "David");
 
