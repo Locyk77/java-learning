@@ -19,6 +19,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>learning-base</module>
+        <module>learning-collection</module>
     </modules>
 
     <properties>
