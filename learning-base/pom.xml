@@ -17,6 +17,7 @@
         <module>base-design</module>
         <module>base-reflection-annotation</module>
         <module>base-interceptor</module>
+        <module>base-generic</module>
     </modules>
 
 
