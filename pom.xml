@@ -20,6 +20,8 @@
     <modules>
         <module>learning-base</module>
         <module>learning-collection</module>
+        <module>learning-concurrency</module>
+        <module>learning-jvm</module>
     </modules>
 
     <properties>
